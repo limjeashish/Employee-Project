@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757817781A3CDFCC00FF673F /* EmployeeSalaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757817771A3CDFCC00FF673F /* EmployeeSalaryViewController.m */; };
+		7578177B1A3CDFEB00FF673F /* EmployeeFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578177A1A3CDFEB00FF673F /* EmployeeFindViewController.m */; };
+		7578177D1A3D086200FF673F /* Database.sql in Resources */ = {isa = PBXBuildFile; fileRef = 7578177C1A3D086200FF673F /* Database.sql */; };
 		75EAA6C31A3AD724001A440D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6C21A3AD724001A440D /* Foundation.framework */; };
 		75EAA6C51A3AD724001A440D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6C41A3AD724001A440D /* CoreGraphics.framework */; };
 		75EAA6C71A3AD724001A440D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6C61A3AD724001A440D /* UIKit.framework */; };
@@ -14,13 +17,17 @@
 		75EAA6CF1A3AD724001A440D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6CE1A3AD724001A440D /* main.m */; };
 		75EAA6D31A3AD724001A440D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6D21A3AD724001A440D /* AppDelegate.m */; };
 		75EAA6D61A3AD724001A440D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA6D41A3AD724001A440D /* Main.storyboard */; };
-		75EAA6D91A3AD724001A440D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6D81A3AD724001A440D /* ViewController.m */; };
 		75EAA6DB1A3AD724001A440D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA6DA1A3AD724001A440D /* Images.xcassets */; };
 		75EAA6E21A3AD724001A440D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6E11A3AD724001A440D /* XCTest.framework */; };
 		75EAA6E31A3AD724001A440D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6C21A3AD724001A440D /* Foundation.framework */; };
 		75EAA6E41A3AD724001A440D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6C61A3AD724001A440D /* UIKit.framework */; };
 		75EAA6EC1A3AD724001A440D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA6EA1A3AD724001A440D /* InfoPlist.strings */; };
 		75EAA6EE1A3AD724001A440D /* Employee_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6ED1A3AD724001A440D /* Employee_ProjectTests.m */; };
+		75EAA6F91A3B5FC3001A440D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6F81A3B5FC3001A440D /* DBManager.m */; };
+		75EAA6FB1A3B6012001A440D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EAA6FA1A3B6012001A440D /* libsqlite3.dylib */; };
+		75EAA7001A3B840F001A440D /* EmployeeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA6FF1A3B840F001A440D /* EmployeeDetailsViewController.m */; };
+		75EAA7031A3B843E001A440D /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA7021A3B843E001A440D /* EditInfoViewController.m */; };
+		75EAA7061A3B8468001A440D /* EmployeeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA7051A3B8468001A440D /* EmployeeCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757817761A3CDFCC00FF673F /* EmployeeSalaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeSalaryViewController.h; path = ../EmployeeSalaryViewController.h; sourceTree = "<group>"; };
+		757817771A3CDFCC00FF673F /* EmployeeSalaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeSalaryViewController.m; path = ../EmployeeSalaryViewController.m; sourceTree = "<group>"; };
+		757817791A3CDFEB00FF673F /* EmployeeFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeFindViewController.h; path = ../EmployeeFindViewController.h; sourceTree = "<group>"; };
+		7578177A1A3CDFEB00FF673F /* EmployeeFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeFindViewController.m; path = ../EmployeeFindViewController.m; sourceTree = "<group>"; };
+		7578177C1A3D086200FF673F /* Database.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = Database.sql; sourceTree = "<group>"; };
 		75EAA6BF1A3AD724001A440D /* Employee Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA6C21A3AD724001A440D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EAA6C41A3AD724001A440D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +57,21 @@
 		75EAA6D11A3AD724001A440D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75EAA6D21A3AD724001A440D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75EAA6D51A3AD724001A440D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75EAA6D71A3AD724001A440D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75EAA6D81A3AD724001A440D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75EAA6DA1A3AD724001A440D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75EAA6E01A3AD724001A440D /* Employee ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA6E11A3AD724001A440D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75EAA6E91A3AD724001A440D /* Employee ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Employee ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		75EAA6EB1A3AD724001A440D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75EAA6ED1A3AD724001A440D /* Employee_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee_ProjectTests.m; sourceTree = "<group>"; };
+		75EAA6F71A3B5FC3001A440D /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		75EAA6F81A3B5FC3001A440D /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		75EAA6FA1A3B6012001A440D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		75EAA6FE1A3B840F001A440D /* EmployeeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeDetailsViewController.h; path = ../EmployeeDetailsViewController.h; sourceTree = "<group>"; };
+		75EAA6FF1A3B840F001A440D /* EmployeeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeDetailsViewController.m; path = ../EmployeeDetailsViewController.m; sourceTree = "<group>"; };
+		75EAA7011A3B843E001A440D /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditInfoViewController.h; path = ../EditInfoViewController.h; sourceTree = "<group>"; };
+		75EAA7021A3B843E001A440D /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditInfoViewController.m; path = ../EditInfoViewController.m; sourceTree = "<group>"; };
+		75EAA7041A3B8468001A440D /* EmployeeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeCellTableViewCell.h; path = ../EmployeeCellTableViewCell.h; sourceTree = "<group>"; };
+		75EAA7051A3B8468001A440D /* EmployeeCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeCellTableViewCell.m; path = ../EmployeeCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EAA6FB1A3B6012001A440D /* libsqlite3.dylib in Frameworks */,
 				75EAA6C51A3AD724001A440D /* CoreGraphics.framework in Frameworks */,
 				75EAA6C71A3AD724001A440D /* UIKit.framework in Frameworks */,
 				75EAA6C31A3AD724001A440D /* Foundation.framework in Frameworks */,
@@ -82,6 +102,9 @@
 		75EAA6B61A3AD723001A440D = {
 			isa = PBXGroup;
 			children = (
+				7578177C1A3D086200FF673F /* Database.sql */,
+				75EAA6F71A3B5FC3001A440D /* DBManager.h */,
+				75EAA6F81A3B5FC3001A440D /* DBManager.m */,
 				75EAA6C81A3AD724001A440D /* Employee Project */,
 				75EAA6E71A3AD724001A440D /* Employee ProjectTests */,
 				75EAA6C11A3AD724001A440D /* Frameworks */,
@@ -101,6 +124,7 @@
 		75EAA6C11A3AD724001A440D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75EAA6FA1A3B6012001A440D /* libsqlite3.dylib */,
 				75EAA6C21A3AD724001A440D /* Foundation.framework */,
 				75EAA6C41A3AD724001A440D /* CoreGraphics.framework */,
 				75EAA6C61A3AD724001A440D /* UIKit.framework */,
@@ -115,8 +139,16 @@
 				75EAA6D11A3AD724001A440D /* AppDelegate.h */,
 				75EAA6D21A3AD724001A440D /* AppDelegate.m */,
 				75EAA6D41A3AD724001A440D /* Main.storyboard */,
-				75EAA6D71A3AD724001A440D /* ViewController.h */,
-				75EAA6D81A3AD724001A440D /* ViewController.m */,
+				75EAA7041A3B8468001A440D /* EmployeeCellTableViewCell.h */,
+				75EAA7051A3B8468001A440D /* EmployeeCellTableViewCell.m */,
+				75EAA6FE1A3B840F001A440D /* EmployeeDetailsViewController.h */,
+				75EAA6FF1A3B840F001A440D /* EmployeeDetailsViewController.m */,
+				75EAA7011A3B843E001A440D /* EditInfoViewController.h */,
+				75EAA7021A3B843E001A440D /* EditInfoViewController.m */,
+				757817761A3CDFCC00FF673F /* EmployeeSalaryViewController.h */,
+				757817771A3CDFCC00FF673F /* EmployeeSalaryViewController.m */,
+				757817791A3CDFEB00FF673F /* EmployeeFindViewController.h */,
+				7578177A1A3CDFEB00FF673F /* EmployeeFindViewController.m */,
 				75EAA6DA1A3AD724001A440D /* Images.xcassets */,
 				75EAA6C91A3AD724001A440D /* Supporting Files */,
 			);
@@ -231,6 +263,7 @@
 				75EAA6DB1A3AD724001A440D /* Images.xcassets in Resources */,
 				75EAA6CD1A3AD724001A440D /* InfoPlist.strings in Resources */,
 				75EAA6D61A3AD724001A440D /* Main.storyboard in Resources */,
+				7578177D1A3D086200FF673F /* Database.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EAA6D91A3AD724001A440D /* ViewController.m in Sources */,
+				75EAA7031A3B843E001A440D /* EditInfoViewController.m in Sources */,
+				757817781A3CDFCC00FF673F /* EmployeeSalaryViewController.m in Sources */,
+				75EAA6F91A3B5FC3001A440D /* DBManager.m in Sources */,
 				75EAA6D31A3AD724001A440D /* AppDelegate.m in Sources */,
+				75EAA7061A3B8468001A440D /* EmployeeCellTableViewCell.m in Sources */,
 				75EAA6CF1A3AD724001A440D /* main.m in Sources */,
+				75EAA7001A3B840F001A440D /* EmployeeDetailsViewController.m in Sources */,
+				7578177B1A3CDFEB00FF673F /* EmployeeFindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +494,7 @@
 				75EAA6F31A3AD724001A440D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75EAA6F41A3AD724001A440D /* Build configuration list for PBXNativeTarget "Employee ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +503,7 @@
 				75EAA6F61A3AD724001A440D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
